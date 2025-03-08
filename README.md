@@ -95,12 +95,12 @@ resource "azurerm_resource_group" "lab" {
 ### **📄 File `variables.tf`** (Defines reusable variables)
 ```hcl
 variable "location" {
-  description = "Location where resources will be deployed"
+  description = "location where all resources will be deploy"
   default     = "eastus"
 }
 
 variable "resource_group_name" {
-  description = "Name of the resource group"
+  description = "resource group name"
   default     = "rg-azure-lab"
 }
 ```
